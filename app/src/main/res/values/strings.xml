@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">指定エリア天気予報</string>
+    <string name="weather_disp">天気予報</string>
+    <string name="action_settings">Settings</string>
+    <string name="fukuoka">福岡</string>
+    <string name="saga">佐賀</string>
+    <string name="nagasaki">長崎</string>
+    <string name="ooita">大分</string>
+    <string name="kumamoto">熊本</string>
+    <string name="miyazaki">宮崎</string>
+    <string name="kagoshima">鹿児島</string>
+    <string name="okinawa">沖縄</string>
+
+</resources>

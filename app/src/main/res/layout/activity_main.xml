@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fukuoka"
+        android:gravity="center"
+        android:id="@+id/textViewFukuoka"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saga"
+        android:gravity="center"
+        android:id="@+id/textViewSaga"
+        android:textSize="30sp"
+        android:layout_below="@+id/textViewFukuoka"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nagasaki"
+        android:gravity="center"
+        android:id="@+id/textViewNagasaki"
+        android:textSize="30sp"
+        android:layout_below="@+id/textViewSaga"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ooita"
+        android:gravity="center"
+        android:id="@+id/textViewOoita"
+        android:textSize="30sp"
+        android:layout_below="@+id/textViewNagasaki"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kumamoto"
+        android:gravity="center"
+        android:id="@+id/textViewKumamoto"
+        android:textSize="30sp"
+        android:layout_below="@+id/textViewOoita"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/miyazaki"
+        android:gravity="center"
+        android:id="@+id/textViewMiyazaki"
+        android:textSize="30sp"
+        android:layout_below="@+id/textViewKumamoto"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kagoshima"
+        android:gravity="center"
+        android:id="@+id/textViewKagoshima"
+        android:textSize="30sp"
+        android:layout_below="@+id/textViewMiyazaki"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/okinawa"
+        android:gravity="center"
+        android:id="@+id/textViewOkinawa"
+        android:textSize="30sp"
+        android:layout_below="@+id/textViewKagoshima"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
